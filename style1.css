@@ -1,4 +1,4 @@
-.container {
+.container1 {
   margin: 60px;
   display: grid;
   grid-template-rows: 100%;
@@ -6,13 +6,13 @@
   grid-auto-flow: row;
 }
 @media only screen and (min-width: 650px) and (max-width: 950px) {
-  .container {
+  .container1 {
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: 50% 50%;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 649px) {
-  .container {
+  .container1 {
     grid-template-columns: 100%;
     grid-template-rows: repeat(4, 25%);
     margin: 40px;
@@ -45,4 +45,4 @@
   color: gray;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style1.css.map */

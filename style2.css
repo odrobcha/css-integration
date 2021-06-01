@@ -1,34 +1,32 @@
-.container {
+.container2 {
   width: 400px;
-  height: 650px;
+  height: 600px;
   margin-bottom: 20px;
   background-color: rgba(228, 228, 227, 0.9);
   padding: 10px;
   color: rgba(228, 228, 227, 0.9);
-  box-sizing: border-box;
 }
 @media only screen and (max-width: 400px) {
-  .container {
+  .container2 {
     width: 100%;
-    height: 720px;
   }
 }
-.container .item {
+.container2 .item {
   background-color: #5a61ef;
   width: 100%;
   height: 100%;
   padding: 30px;
   box-sizing: border-box;
 }
-.container .divider {
+.container2 .divider {
   width: 100%;
   border-top: 1px solid rgba(239, 239, 238, 0.19);
   margin: 10px 0%;
 }
-.container img {
+.container2 img {
   width: 100%;
 }
-.container .user-list-item {
+.container2 .user-list-item {
   display: grid;
   grid-template-rows: 100%;
   grid-template-columns: calc(100% - 40px) 40px;
@@ -36,13 +34,13 @@
   padding: 10px 0;
   border-bottom: 1px solid rgba(239, 239, 238, 0.19);
 }
-.container .user-list-item h4:last-child {
+.container2 .user-list-item h4:last-child {
   justify-self: end;
 }
-.container .user-list-item:last-child {
+.container2 .user-list-item:last-child {
   padding-bottom: 30px;
 }
-.container footer {
+.container2 footer {
   text-transform: uppercase;
   display: grid;
   grid-template-rows: 100%;
@@ -51,7 +49,7 @@
   justify-items: end;
   padding: 20px 0;
 }
-.container .arrow, .container .arrow:visited, .container .arrow:focus {
+.container2 .arrow, .container2 .arrow:visited, .container2 .arrow:focus {
   text-decoration: none;
   color: rgba(228, 228, 227, 0.9);
 }

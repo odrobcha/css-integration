@@ -1,35 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="style.css">
-	<title>Interface 1</title>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<script src="jquery.js"></script>
+	<script>
+        $(function(){
+            $("#includedContent1").load("index1.html");
+            $("#includedContent2").load("index2.html");
+            $("#includedContent3").load("index3.html");
+
+        });
+
+	</script>
+
 </head>
 <body>
-<div class="container">
-	<div class="item">
-		<img src="img/grunt.png">
-		<h2>Grunt plugin</h2>
-		<p>Install the grunt-surge plugin, and your project is ready to use grunt deploy</p>
+	<div id="includedContent1">
+
 	</div>
-	<div class="item">
-		<img src="img/gulp.png">
-		<h2>Gulp plugin</h2>
-		<p>Install surge as a devDependency, and you are ready to use it in your Gulpfile</p>
+	<div id="includedContent2">
+
 	</div>
-	<div class="item">
-		<img src="img/git.png">
-		<h2>Git Hooks</h2>
-		<p>Deploy every time you push to GitHub, but without any branch juggling</p>
+	<div id="includedContent3">
+
 	</div>
-	<div class="item">
-		<img src="img/npm.png">
-		<h2>npm run scripts</h2>
-		<p>Install the Surge CLI tool, and your project is ready to use in your package.json</p>
-	</div>
-</div>
 
 </body>
 </html>

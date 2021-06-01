@@ -1,6 +1,6 @@
 # css-integration
 
-## Repository includes two tasks 
+## Repository includes three tasks 
 - Intesface1 (index.html style.css)
 - Intesface2 (index2.html style2.css)
 - Intesface3 (index2.html style3.css)

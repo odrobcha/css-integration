@@ -18,6 +18,7 @@ $margin-base: 20px;
     @media only screen and (min-width: 000px)  and (max-width: 649px) {
         grid-template-columns: 100%;
         grid-template-rows: repeat(4, 25%);
+        margin: 2*$margin-base;
     }
 }
 .item{

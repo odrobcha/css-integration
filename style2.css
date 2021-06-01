@@ -1,10 +1,17 @@
 .container {
   width: 400px;
-  height: 600px;
+  height: 650px;
   margin-bottom: 20px;
   background-color: rgba(228, 228, 227, 0.9);
   padding: 10px;
   color: rgba(228, 228, 227, 0.9);
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 400px) {
+  .container {
+    width: 100%;
+    height: 720px;
+  }
 }
 .container .item {
   background-color: #5a61ef;
